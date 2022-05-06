@@ -21,7 +21,7 @@ from numpy.linalg import norm #to find magnitude
 import heapq
 """connecting to db"""
 
-cred = credentials.Certificate("./ServiceAccountKey.json")
+cred = credentials.Certificate("python_modules/ServiceAccountKey.json")
 default_app = firebase_admin.initialize_app(cred)
 db = firestore.client()
 
