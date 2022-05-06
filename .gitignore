@@ -11,7 +11,7 @@
 
 /android/app/google-services.json
 /python_env
-/admin_modules/ServiceAccountKey.json
+/python_modules/ServiceAccountKey.json
 
 # IntelliJ related
 *.iml
